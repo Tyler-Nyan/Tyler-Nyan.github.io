@@ -1,2 +1,1 @@
-# This is my GitHub page
-By Tyler
+# Pet Store Files
