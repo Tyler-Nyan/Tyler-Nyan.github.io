@@ -1,0 +1,119 @@
+body { 
+
+    font-family: Arial, sans-serif; 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    text-align: center; 
+
+} 
+
+ 
+header { 
+
+    background-color: #4CAF50; 
+
+    padding: 20px; 
+
+    color: white; 
+
+}  
+
+nav a { 
+
+    margin: 0 15px; 
+
+    text-decoration: none; 
+
+    color: white; 
+
+    font-weight: bold; 
+
+} 
+
+ 
+
+.featured { 
+
+    margin: 20px; 
+
+} 
+
+ 
+
+.pet-list { 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    gap: 20px; 
+
+} 
+
+.pet { 
+
+    border: 2px solid #ddd; 
+
+    padding: 15px; 
+
+    text-align: center; 
+
+} 
+
+ 
+
+.pet img { 
+
+    width: 150px; 
+
+    height: 150px; 
+
+    border-radius: 10px; 
+
+} 
+
+ 
+
+button { 
+
+    background-color: #008CBA; 
+
+    color: white; 
+
+    padding: 10px; 
+
+    border: none; 
+
+    cursor: pointer; 
+
+} 
+
+button:hover { 
+
+    background-color: #8b0c0c; 
+
+} 
+
+.pet-group {
+    margin-bottom: 30px;
+}
+
+.pet-group h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header {
+    background-image: url('jumbotron.jpg');
+    background-size: cover; /* Optional: scales the image to cover the header */
+    background-position: center; /* Optional: centers the image */
+    background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+    height: 300px; /* Optional: set a height for the header if needed */
+    color: white; /* Optional: text color for contrast */
+    text-align: center;
+    padding: 40px 20px;
+}
+

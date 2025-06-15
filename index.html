@@ -1,110 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #000000;
-    }
-
-    header {
-      background-color: #1f2937;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    section {
-      margin-bottom: 2rem;
-    }
-
-    h2 {
-      color: #1f2937;
-      margin-bottom: 1rem;
-    }
-
-    .skills ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .skills li {
-      background: #e5e7eb;
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      margin: 0.3rem;
-      border-radius: 5px;
-    }
-
-    footer {
-      background-color: #1f2937;
-      color: #fff;
-      text-align: center;
-      padding: 1rem 0;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      main {
-        padding: 0 0.5rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <header>
+        <h1>Welcome to Our Pet Store</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="pets.html">Pets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Thukha Nyan</h1>
-    <p>Computer Science | Assumption University</p>
-  </header>
+    <main>
+        <section class="featured">
+            <h2>Featured Pets</h2>
+            <div class="pet-list">
+                <div class="pet">
+                    <img src="dog.jpg" alt="Cute Dog">
+                    <p>Charlie - Golden Retriever</p>
+                    <button onclick="adoptPet()">Adopt Now</button>
+                </div>
+                <div class="pet">
+                    <img src="cat.jpg" alt="Cute Cat">
+                    <p>Milo - British Shorthair</p>
+                    <button onclick="adoptPet()">Adopt Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
 
-  <main>
-    <section class="about">
-        <img src="download.jpg" alt="Tyler's image" style="width:100%; height:auto; border-radius:8px;">
-      <h2>About Me</h2>
-      <p>Hello! I'm Thukha Nyan@Tyler, with interest in UI/UX design and Web Design.</p>
-      <p>I am studying Computer Science at ABAC.</p>
-    </section>
+    <footer id="contact" style="background-color: rgba(42, 135, 234, 0.513);">
+            <div id="contact" style="display: flex; gap: 24px; align-items: flex-start; width: 60%; margin: 0 auto;">
+                <div id="address" style="flex: 1;">
+                    <h2>Our Pet Shop</h2>
+                    <p>88 หมู่ที่ 8 ถนน บางนา-ตราด Bang Sao Thong, Bang Sao Thong District, Samut Prakan 10540</p>
+                    <p>Email: <strong>info@petstore.com</strong></p>
+                </div>
+                <div id="map" style="flex: 2; margin: 10px 0;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.757578305562!2d100.83534157410966!3d13.611612686765792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d430e775155f9%3A0xf01923824353260!2sAssumption%20University%20Suvarnabhumi%20Campus!5e0!3m2!1sen!2sth!4v1749542866348!5m2!1sen!2sth" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+    </footer>
 
-    <section class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Python</li>
-        <li>Figma</li>
-        <li>MySQL</li>
-      </ul>
-    </section>
-
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:u6520076@au.edu">u6520076@au.edu</a></p>
-      <p>GitHub: <a href="https://github.com/Tyler-Nyan" target="_blank">Tyler-Nyan</a></p>
-    </section>
-  </main>
-
+    <script src="script.js"></script>
 </body>
+
 </html>
